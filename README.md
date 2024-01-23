@@ -1,2 +1,7 @@
 # CR2-Net
 CR2-Net: Component Relationship Reasoning Network for Traffic Text Detection
+
+Although natural scene text detection has been extensively studied and achieved remarkable results, the research on traffic text detection is still in its infancy. In this work, we infer text component relationships via a component relationship reasoning network (CR2-Net) for traffic text detection. The method contains three main contributions: (1) exploring the inherent relationships among text components to combine more abstract semantic representations. (2) introducing grouped deformable convolutional networks and adaptively adjusting the convolutional manner to enhance the feature extraction capability of the network model for text regions. (3) employing a feature fusion module based on attention mechanism to fuse different channel feature maps and enhance the network's adaptability. To demonstrate the effectiveness, we evaluate CR2-Net on four standard benchmarks. Experimental results demonstrate that our method achieves remarkable performance on two traffic text datasets, i.e., CTST-1600, and TPD, surpassing all previously reported results to the best of our knowledge. Additionally, our approach exhibits competitive results even on general natural scene text datasets, such as ICDAR 2015 and SCUT-CTW1500, thus fully demonstrating the superiority and adaptability of our method. 
+
+
+We will release the source code and related data as soon as the paper is accepted. Many thanks!
