@@ -2,7 +2,7 @@
 
 This is a pytorch-based implementation for paper [CR2-Net](https://ieeexplore.ieee.org/abstract/document/10552116) (IEEE Transactions on Intelligent Vehicles). This repository is built on the pytorch [maskrcnn](https://github.com/facebookresearch/maskrcnn-benchmark).
 
-![外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传](https://img-home.csdnimg.cn/images/20230724024159.png?origin_url=overview.png&pos_id=img-wiZiVvKK-1729170737012)
+![Alt](overview.jpg)
 ## News
 (2024/10/19) Code is released.
 
@@ -40,6 +40,9 @@ Experimental Results on traffic text datasets CTST-1600  and TPD  Datasets.
 |:-----------------|:--------:|:---------:|:---------:|
 | CTST1600 | 86.9   |   91.3    |    89.0   |
 | TPD | 92.7 | 91.3  | 92.1 |
+
+## Initialize the backbone
+There is one strategies to initialize the parameters in the backbone: use the ResNet50 model (ImageNet)[BAIDU](https://pan.baidu.com/s/1nYePd4BgsBjhToeD2y1RbQ)(passward:edt8)   or [Drive](https://drive.google.com/file/d/1GZRktoRS4hoXmsCrucl3liLyMzl56WK7/view?usp=sharing),   this is provided by [Yuliang](https://github.com/Yuliang-Liu/Box_Discretization_Network),   which is ONLY an ImageNet Model With a few iterations on ic15 training data for a stable initialization.
 
 ## Experiment on ICDAR 2015 dataset
 ### Data preparing 
