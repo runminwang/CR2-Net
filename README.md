@@ -4,7 +4,7 @@ This is a pytorch-based implementation for paper [CR2-Net](https://ieeexplore.ie
 
 ![Alt](overview.jpg)
 ## News
-(2024/10/19) Code is released.
+(2024/10/18) Code is released.
 
 ## Requirements
 The version we used is    pytorch==1.7.0   torchvision==0.8.0 cudatoolkit=11.0
@@ -81,7 +81,7 @@ Put bo.json to ic15_evaluate/, then run
 #### step 1
    Prepare data follow COCO format or you can download our CTW-dataset [Baidu](https://pan.baidu.com/s/1Ie042iJdLzU6prBI9zu_Tw)(jeec)[Drive](https://drive.google.com/file/d/1YbohYSs4T6yyVMEYCpr18fzKiUWzYVOe/view?usp=sharing), and unzip it in
 ```bash 
-   output/.
+   datasets/.
 ```
 #### step 2
    You need to modify ```maskrcnn_benchmark/config/paths_catalog.py```to point to the location where your dataset is stored.
