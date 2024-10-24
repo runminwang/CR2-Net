@@ -58,7 +58,7 @@ You need to modify ```maskrcnn_benchmark/config/paths_catalog.py```to point to t
 
 Run
 ```bash 
-   python tools/test_net.py  --config-file "./configs/icdar2015/r50_baseline.yaml"
+   python tools/train_net.py  --config-file "./configs/icdar2015/r50_baseline.yaml"
 ```
 ### Test IC15
 Run
@@ -90,7 +90,7 @@ Put bo.json to ic15_evaluate/, then run
 
 Run
 ```bash 
-   python tools/test_net.py  --config-file "./configs/ctw/r50_baseline.yaml"
+   python tools/train_net.py  --config-file "./configs/ctw/r50_baseline.yaml"
 ```
 ### Test CTW
 Run
@@ -109,7 +109,7 @@ Run
 ### Train on TPD
 Run
 ```bash 
-   python tools/test_net.py  --config-file "./configs/tpd/r50_baseline.yaml"
+   python tools/train_net.py  --config-file "./configs/tpd/r50_baseline.yaml"
 ```
 ### Test TPD
 Run
@@ -128,7 +128,7 @@ Run
 
 Run
 ```bash 
-   python tools/test_net.py  --config-file "./configs/ctst1600/r50_baseline.yaml"
+   python tools/train_net.py  --config-file "./configs/ctst1600/r50_baseline.yaml"
 ```
 ### Test CTST-1600
 Run
